@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="CHILD COMPONENT">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Message for Parent" name="fromChild" onchange={handleChildChange}></lightning-input>
+            Parent Says: <b>{parentMessage}</b>
+            <div class="slds-m-around_large">
+                <lightning-button variant="brand" label="Send To Parent" onclick={handleClick}></lightning-button>
+            </div>
+        </div>
+
+    </lightning-card>
+</template>

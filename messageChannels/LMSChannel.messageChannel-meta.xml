@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isExposed>true</isExposed>
+    <masterLabel>Unrelated</masterLabel>
+    <description> LMS for unrelated components </description>
+
+    <lightningMessageFields>
+        <fieldName>message</fieldName>
+        <description>Message for unrelated component</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="PARENT COMPONENT">
+        <div class="slds-m-around_medium">
+        <lightning-input type="text" label="Message for Child" onchange={handleChange}></lightning-input>
+        <p>Child Says: <b>{fromChild}</b></p>
+        <p>Unrelated Says: <b>{unrelatedMessage}</b></p>
+        </div>
+        <div>
+            <c-child parent-message={message} ongetchildmessage={handleChildMethod}></c-child>
+        </div>
+    </lightning-card>
+</template>
